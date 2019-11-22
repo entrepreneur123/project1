@@ -1,0 +1,180 @@
+.body{
+	margin:0px;
+	padding:0px;
+}
+.nav{
+	width:100%;
+	height:50px;
+	padding:5px 0px;
+	background-color:#04184a;
+	color:white;
+}
+.navbar{
+	margin:0px;
+	height:60px;
+}
+.navbar li{
+float:left;
+margin:0px 10px;
+list-style-type: none;
+padding:10px;
+}
+.navbar li:hover{
+	background-color:#c4ba8f;
+	color:white;
+}
+.container{
+	margin:auto;
+	height:80%;
+}
+.col-1{width:8.33%;float:left;}
+.col-2{width:16.66%;float:left;}
+.col-4{width:33.33%;float:left;}
+.col-3{width:25%;float:left;}
+.col-5{width:41.66%;float:left;}
+.col-6{width:50%;float:left;}
+.col-7{width:58.33%;float:left;}
+.col-8{width:66.66%;float:left;}
+.col-9{width:75%;float:left;}
+.col-10{width:83.33%;float:left;}
+.col-11{width:91.66%;float:left;}
+.col-12{width:100%;float:left;}
+
+[class*="col-"]{
+	box-sizing:border-box;
+}
+
+.row::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+@media only screen and (max-width:768px){
+	[class*="col-"]{
+		width:100%;
+	}
+}
+.main{
+	margin:0px;
+	width:100%;
+	height: 40vh;
+	background-color:#4b8ccc;
+
+
+}
+.main h1{
+	margin:0px;
+	color:white;
+	top:100px;
+	text-align:center;
+	width: 100%;	
+}
+.main p{
+	top:160px;
+	color:black;
+	text-align:center;
+}
+.photos{
+	color:white;
+	height:50vh;
+	margin:0px;
+	position:relative;
+}
+
+/*clients .box{
+	height: 290px;
+	background-color: #d42450;
+	margin: 10px;
+	position: relative;
+}
+*/
+.photos h1{
+	text-align:center;
+	position:absolute;
+	color:black;
+}
+.hero{
+	margin:0px;
+	width:100%;
+	height: 60vh;
+	background-color:#4b8ccc;
+
+
+}
+.hero h1{
+	margin:0px;
+	color:white;
+	top:100px;
+	text-align:center;
+	width: 100%;	
+}
+.hero p{
+	top:160px;
+	color:black;
+	text-align:center;
+}
+.about{
+	background-color: #1a1abd;
+	color:white;
+	height:20vh;
+	width:100%;
+	text-align:center;
+}
+.lib{
+	margin:0px;
+	width:100%;
+	height:40vh;
+	position:relative;
+}
+.lib h1{
+	color:#07515e;
+}
+.chairman{
+	height:12vh;
+	margin:30px;
+
+
+	
+/*	background-color: #1a1abd;*/
+	color:black;
+}
+.chair{
+	color:black;
+	margin:0px;
+	width:100%;
+
+}
+.csit{
+	margin:20px;
+	width:100%;
+	color:black;
+}
+.csit h1{
+	color:#4b8ccc;
+	width:100%;
+}
+.ad{
+	margin:0px;
+	height:70vh;
+}
+.ad h1{
+	color:#0a3957;
+}
+.ad p{
+	color:black;
+}
+.contact h1{
+color:#084f5c;
+}
+.contact h2{
+	color:#084f5c;
+}
+.b h1{
+	color:#084f5c;
+}
+.bsw p{
+	color:#050505;
+}
+
+
+
